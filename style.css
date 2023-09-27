@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.img-lateral {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-lateral img {
+    min-height: 100%;
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header-text {
+    flex: 2;
+    padding: 20px;
+}
+
+/* Resto do seu CSS aqui */
